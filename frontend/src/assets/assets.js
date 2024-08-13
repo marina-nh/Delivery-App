@@ -84,75 +84,75 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Alfajores Artesanales",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Budines con Glaseado",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Alfajores de Maicena",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Sándwiches de Miga",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Tortas de Tiramisú ",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Pasta Frola Clásica",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Postres de Fruta",
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Brownie de Chocolate",
         menu_image: menu_8
     }]
 
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Alfajores artesanales",
         image: food_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 5000,
+        description: "Media docena de alfajores mixtos de chocolate blanco y negro con relleno de dulce de leche.",
+        category: "Dulce"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Budín",
         image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 1800,
+        description: "Budín de vainilla, naranja o limón húmedo y bien esponjoso con glaseado",
+        category: "Dulce"
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "Alfajores de maicena",
         image: food_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 2600,
+        description: "Media docena de alfajores de maicena de tamaño mediano",
+        category: "Dulce"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "Sándwich de miga",
         image: food_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 1400,
+        description: "Sándwich de miga triple de jamón y queso",
+        category: "Salado"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Tiramisú",
         image: food_5,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 9000,
+        description: "Tiramisú tradicional italiano, preparado con café, bizcocho, mascarpone y cacao. Rinde para 8 personas",
+        category: "Dulce"
     }, {
         _id: "6",
         name: "Peri Peri Rolls",
