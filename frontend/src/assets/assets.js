@@ -121,230 +121,230 @@ export const food_list = [
         _id: "1",
         name: "Alfajores artesanales",
         image: food_1,
-        price: 5000,
-        description: "Media docena de alfajores mixtos de chocolate blanco y negro con relleno de dulce de leche.",
+        price: 5300,
+        description: "Media docena de alfajores simple con cubierta de chocolate negro y relleno de dulce de leche.",
         category: "Dulce"
     },
     {
         _id: "2",
-        name: "Budín",
+        name: "Alfajores mixtos",
         image: food_2,
-        price: 1800,
-        description: "Budín de vainilla, naranja o limón húmedo y bien esponjoso con glaseado",
+        price: 6200,
+        description: "Media docena de alfajores triple mixtos con cubierta de chocolate blanco y negro, relleno de dulce de leche.",
         category: "Dulce"
     }, {
         _id: "3",
-        name: "Alfajores de maicena",
+        name: "Bizcochuelo",
         image: food_3,
         price: 2600,
-        description: "Media docena de alfajores de maicena de tamaño mediano",
+        description: "Bizcochuelo de naranja o limón, espojonso y húmedo.",
         category: "Dulce"
     }, {
         _id: "4",
-        name: "Sándwich de miga",
+        name: "Galletas",
         image: food_4,
-        price: 1400,
-        description: "Sándwich de miga triple de jamón y queso",
-        category: "Salado"
+        price: 1800,
+        description: "Paquete de galletitas dulces con chips de chocolate.",
+        category: "Dulce"
     }, {
         _id: "5",
-        name: "Tiramisú",
+        name: "Alfajores de maicena",
         image: food_5,
         price: 9000,
-        description: "Tiramisú tradicional italiano, preparado con café, bizcocho, mascarpone y cacao. Rinde para 8 personas",
+        description: "Media docena de alfajores de maicena con relleno de dulce de leche.",
         category: "Dulce"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Medialunas",
         image: food_6,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 400,
+        description: "Medialunas tradicionales de manteca.",
+        category: "Panaderia"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Pasta frola",
         image: food_7,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Pasta frola clásica con relleno de batata, membrillo o dulce de leche.",
+        category: "Dulce"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Torta de Sándwich de miga",
         image: food_8,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Torta de Sándwich de miga con diferentes rellenos a pedido.",
+        category: "Salado"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Torta de chocolate y mousse",
         image: food_9,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 14000,
+        description: "Torta con bizcochuelo de chocolate y relleno de mousse de dulce de leche.",
+        category: "Torta"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Torta de chocolate",
         image: food_10,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 16000,
+        description: "Torta con bizcochuelo de vainilla, relleno de chocolate y cobertura de crema chantillí, frutilla y chocolate.",
+        category: "Torta"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Postres de fruta",
         image: food_11,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 1500,
+        description: "Postres en vasitos con mix de frutas de estación.",
+        category: "Dulce"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Chessecake",
         image: food_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 12000,
+        description: "Chessecake de limón con base crocante y textura cremosa.",
+        category: "Torta"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Sándwiches de miga",
         image: food_13,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 1200,
+        description: "Sándwich de miga clásico de jamón y queso.",
+        category: "Salado"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Budín",
         image: food_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 1800,
+        description: "Budín de vainilla, naranja o limón, húmedo y bien esponjoso con glaseado.",
+        category: "Dulce"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Galletas de limón",
         image: food_15,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 1200,
+        description: "Paquete de seis galletitas dulces de limón.",
+        category: "Dulce"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Lemon Pie",
         image: food_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 10000,
+        description: "Lemon Pie con una base crocante, relleno de una suave crema de limón y decorada con merengue italiano.",
+        category: "Torta"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Cupcake",
         image: food_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 1500,
+        description: "Cupcake de vainilla decorado con buttercream.",
+        category: "Dulce"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Chessecake de frutilla",
         image: food_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 12000,
+        description: "Chessecake de frutilla con base crocante y textura cremosa.",
+        category: "Torta"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Torta frutal",
         image: food_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 14000,
+        description: "Torta con bizcochuelo de vainilla, relleno de dulce de leche, crema y frutas de estación.",
+        category: "Torta"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Brownie",
         image: food_20,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 15000,
+        description: "Brownie clásico de chocolate y trozos de nuez.",
+        category: "Dulce"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Torta de chocolate",
         image: food_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 18000,
+        description: "Torta con bizcochuelo de chocolate, relleno de mousse de chocolate y decorada con ganache de chocolate.",
+        category: "Torta"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Torta de queso",
         image: food_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 22000,
+        description: "Torta de queso de textura suave y sabor delicado.",
+        category: "Torta"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Pastelito de membrillo",
         image: food_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 800,
+        description: "Pastelitos de hojaldre y un relleno suave de membrillo en el interior",
+        category: "Panaderia"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Medialuna rellena",
         image: food_24,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 600,
+        description: "Medialunas de manteca rellenas de dulce de leche o crema pastelera.",
+        category: "Panaderia"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Tarta de frutas",
         image: food_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 12000,
+        description: "Tarta con relleno de frutas de estación y decorado con merengue italiano.",
+        category: "Torta"
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "Bola de Fraile",
         image: food_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 500,
+        description: "Bola de fraile esponjosas y rellenas de dulce de leche o crema pastelera.",
+        category: "Panaderia"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "Alfajor Mixto",
         image: food_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 1200,
+        description: "Alfajor mixto relleno de fruta, dulce de leche o chocolate blanco y cubierta de chocolate negro.",
+        category: "Dulce"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Budín de limón",
         image: food_28,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 3800,
+        description: "Budín de limón con una suave cubierta de crema de limón y menta",
+        category: "Dulce"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Torta de Mousse",
         image: food_29,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Torta con bizcochuelo de chocolate y relleno de mousse de café y chocolate blanco.",
+        category: "Torta"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Tarta de frutilla",
         image: food_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 12000,
+        description: "Tarta con base crocante, relleno de crema chantillí y decorado con abundantes frutillas de estación.",
+        category: "Torta"
     }, {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Tiramisú",
         image: food_31,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 20000,
+        description: "Tiramisú tradicional italiano, preparado con café, bizcocho, mascarpone y cacao.",
+        category: "Torta"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "Chessecake",
         image: food_32,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Chessecake clásico con base crocante y textura cremosa.",
         category: "Noodles"
     }
 ]
