@@ -1,9 +1,10 @@
 .header{
-    height: 34vw;
-    margin: 30px auto;
+    height: 33.5vw;
+    margin: 35px auto;
     background: url('/header_img.png') no-repeat;
     background-size: contain;
     position: relative;
+    box-shadow: 0px 12px 20px black;
 }
 
 .header-contents{
@@ -31,7 +32,7 @@
 
 .header-contents button{
     border: none;
-    color: #747474;
+    color: #71270D;
     font-weight: 500;
     padding: 1vw 2.3vw;
     background-color: white;

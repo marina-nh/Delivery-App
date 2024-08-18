@@ -241,7 +241,7 @@ export const food_list = [
         category: "Meriendas"
     }, {
         _id: "18",
-        name: "Chessecake de frutilla",
+        name: "Chessecake",
         image: food_18,
         price: 12000,
         description: "Chessecake de frutilla con base crocante y textura cremosa.",
