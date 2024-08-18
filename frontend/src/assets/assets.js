@@ -84,35 +84,35 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Alfajores Artesanales",
+        menu_name: "Alfajores",
         menu_image: menu_1
     },
     {
-        menu_name: "Budines con Glaseado",
+        menu_name: "Budines",
         menu_image: menu_2
     },
     {
-        menu_name: "Alfajores de Maicena",
+        menu_name: "Chessecakes",
         menu_image: menu_3
     },
     {
-        menu_name: "Sándwiches de Miga",
+        menu_name: "Sándwiches",
         menu_image: menu_4
     },
     {
-        menu_name: "Tortas Tiramisú ",
+        menu_name: "Tortas",
         menu_image: menu_5
     },
     {
-        menu_name: "Pasta Frola Clásica",
+        menu_name: "Panaderia",
         menu_image: menu_6
     },
     {
-        menu_name: "Postres de Fruta",
+        menu_name: "Postres",
         menu_image: menu_7
     },
     {
-        menu_name: "Brownie de Chocolate",
+        menu_name: "Meriendas",
         menu_image: menu_8
     }]
 
@@ -123,7 +123,7 @@ export const food_list = [
         image: food_1,
         price: 5300,
         description: "Media docena de alfajores simple surtidos cubierta de chocolate negro.",
-        category: "Dulce"
+        category: "Alfajores"
     },
     {
         _id: "2",
@@ -131,28 +131,28 @@ export const food_list = [
         image: food_2,
         price: 6200,
         description: "Media docena de alfajores triple mixtos con cubierta de chocolate.",
-        category: "Dulce"
+        category: "Alfajores"
     }, {
         _id: "3",
         name: "Bizcochuelo",
         image: food_3,
         price: 2600,
         description: "Bizcochuelo de naranja o limón, espojonso y húmedo.",
-        category: "Dulce"
+        category: "Meriendas"
     }, {
         _id: "4",
         name: "Galletas",
         image: food_4,
         price: 1800,
         description: "Paquete de galletitas dulces con chips de chocolate.",
-        category: "Dulce"
+        category: "Meriendas"
     }, {
         _id: "5",
         name: "Maicena",
         image: food_5,
         price: 9000,
         description: "Media docena de alfajores de maicena con relleno de dulce de leche.",
-        category: "Dulce"
+        category: "Alfajores"
     }, {
         _id: "6",
         name: "Medialunas",
@@ -166,42 +166,42 @@ export const food_list = [
         image: food_7,
         price: 1500,
         description: "Pasta frola clásica con relleno de batata, membrillo o dulce de leche.",
-        category: "Dulce"
+        category: "Merienda"
     }, {
         _id: "8",
         name: "Torta Sándwich",
         image: food_8,
         price: 15000,
         description: "Torta de Sándwich de miga con diferentes rellenos a pedido.",
-        category: "Salado"
+        category: "Sándwiches"
     }, {
         _id: "9",
         name: "Torta mousse",
         image: food_9,
         price: 14000,
         description: "Torta con bizcochuelo de chocolate y relleno de mousse de dulce de leche.",
-        category: "Torta"
+        category: "Tortas"
     }, {
         _id: "10",
         name: "Torta Chantillí",
         image: food_10,
         price: 16000,
         description: "Torta con relleno de chocolate y cobertura de crema chantillí y frutillas.",
-        category: "Torta"
+        category: "Tortas"
     }, {
         _id: "11",
         name: "Postres de fruta",
         image: food_11,
         price: 1500,
         description: "Postres en vasitos con mix de frutas de estación.",
-        category: "Dulce"
+        category: "Postres"
     }, {
         _id: "12",
         name: "Chessecake",
         image: food_12,
         price: 12000,
         description: "Chessecake de limón con base crocante y textura cremosa.",
-        category: "Torta"
+        category: "Chessecakes"
     },
     {
         _id: "13",
@@ -209,7 +209,7 @@ export const food_list = [
         image: food_13,
         price: 1200,
         description: "Sándwich de miga clásico de jamón y queso.",
-        category: "Salado"
+        category: "Sándwiches"
     },
     {
         _id: "14",
@@ -217,63 +217,63 @@ export const food_list = [
         image: food_14,
         price: 1800,
         description: "Budín de naranja o limón, húmedo y bien esponjoso con glaseado.",
-        category: "Dulce"
+        category: "Budines"
     }, {
         _id: "15",
         name: "Galletas de limón",
         image: food_15,
         price: 1200,
         description: "Paquete de seis galletitas dulces de limón.",
-        category: "Dulce"
+        category: "Merienda"
     }, {
         _id: "16",
         name: "Lemon Pie",
         image: food_16,
         price: 10000,
         description: "Lemon Pie clásico relleno de crema de limón y merengue italiano.",
-        category: "Torta"
+        category: "Tortas"
     }, {
         _id: "17",
         name: "Cupcake",
         image: food_17,
         price: 1500,
         description: "Cupcake de vainilla decorado con buttercream.",
-        category: "Dulce"
+        category: "Meriendas"
     }, {
         _id: "18",
         name: "Chessecake de frutilla",
         image: food_18,
         price: 12000,
         description: "Chessecake de frutilla con base crocante y textura cremosa.",
-        category: "Torta"
+        category: "Chessecakes"
     }, {
         _id: "19",
         name: "Torta frutal",
         image: food_19,
         price: 14000,
         description: "Torta con relleno de dulce de leche, crema y frutas de estación.",
-        category: "Torta"
+        category: "Tortas"
     }, {
         _id: "20",
         name: "Brownie",
         image: food_20,
         price: 15000,
         description: "Brownie clásico de chocolate y trozos de nuez.",
-        category: "Dulce"
+        category: "Meriendas"
     }, {
         _id: "21",
         name: "Torta chocolate",
         image: food_21,
         price: 18000,
         description: "Torta con relleno de mousse de chocolate y ganache de chocolate.",
-        category: "Torta"
+        category: "Tortas"
     }, {
         _id: "22",
         name: "Torta de queso",
         image: food_22,
         price: 22000,
         description: "Torta de queso de textura suave y sabor delicado.",
-        category: "Torta"
+        category: "Tortas"
     }, {
         _id: "23",
         name: "Pastelitos",
@@ -295,7 +295,7 @@ export const food_list = [
         image: food_25,
         price: 12000,
         description: "Tarta con relleno de frutas de estación y decorado con merengue italiano.",
-        category: "Torta"
+        category: "Tortas"
     },
     {
         _id: "26",
@@ -310,41 +310,41 @@ export const food_list = [
         image: food_27,
         price: 1200,
         description: "Alfajor mixto diversos rellenos y cubierta de chocolate negro.",
-        category: "Dulce"
+        category: "Alfajores"
     }, {
         _id: "28",
         name: "Budín de limón",
         image: food_28,
         price: 3800,
         description: "Budín de limón con una suave cubierta de crema de limón y menta",
-        category: "Dulce"
+        category: "Budines"
     }, {
         _id: "29",
         name: "Torta de Mousse",
         image: food_29,
         price: 14000,
         description: "Torta con relleno de mousse de café y chocolate blanco.",
-        category: "Torta"
+        category: "Tortas"
     }, {
         _id: "30",
         name: "Tarta de frutilla",
         image: food_30,
         price: 12000,
         description: "Tarta con relleno de crema chantillí y frutillas de estación.",
-        category: "Torta"
+        category: "Tortas"
     }, {
         _id: "31",
         name: "Tiramisú",
         image: food_31,
         price: 20000,
         description: "Tiramisú tradicional italiano de mascarpone y cacao.",
-        category: "Torta"
+        category: "Tortas"
     }, {
         _id: "32",
         name: "Chessecake",
         image: food_32,
         price: 10000,
         description: "Chessecake clásico con base crocante y textura cremosa.",
-        category: "Noodles"
+        category: "Chessecakes"
     }
 ]
