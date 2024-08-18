@@ -100,7 +100,7 @@ export const menu_list = [
         menu_image: menu_4
     },
     {
-        menu_name: "Tortas de Tiramisú ",
+        menu_name: "Tortas Tiramisú ",
         menu_image: menu_5
     },
     {
@@ -119,10 +119,10 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Alfajores artesanales",
+        name: "Alfajores simples",
         image: food_1,
         price: 5300,
-        description: "Media docena de alfajores simple con cubierta de chocolate negro y relleno de dulce de leche.",
+        description: "Media docena de alfajores simple surtidos cubierta de chocolate negro.",
         category: "Dulce"
     },
     {
@@ -130,7 +130,7 @@ export const food_list = [
         name: "Alfajores mixtos",
         image: food_2,
         price: 6200,
-        description: "Media docena de alfajores triple mixtos con cubierta de chocolate blanco y negro, relleno de dulce de leche.",
+        description: "Media docena de alfajores triple mixtos con cubierta de chocolate.",
         category: "Dulce"
     }, {
         _id: "3",
@@ -148,7 +148,7 @@ export const food_list = [
         category: "Dulce"
     }, {
         _id: "5",
-        name: "Alfajores de maicena",
+        name: "Maicena",
         image: food_5,
         price: 9000,
         description: "Media docena de alfajores de maicena con relleno de dulce de leche.",
@@ -158,35 +158,35 @@ export const food_list = [
         name: "Medialunas",
         image: food_6,
         price: 400,
-        description: "Medialunas tradicionales de manteca.",
+        description: "Medialunas tradicionales de manteca. Precio por unidad.",
         category: "Panaderia"
     }, {
         _id: "7",
         name: "Pasta frola",
         image: food_7,
-        price: 20,
+        price: 1500,
         description: "Pasta frola clásica con relleno de batata, membrillo o dulce de leche.",
         category: "Dulce"
     }, {
         _id: "8",
-        name: "Torta de Sándwich de miga",
+        name: "Torta Sándwich",
         image: food_8,
-        price: 15,
+        price: 15000,
         description: "Torta de Sándwich de miga con diferentes rellenos a pedido.",
         category: "Salado"
     }, {
         _id: "9",
-        name: "Torta de chocolate y mousse",
+        name: "Torta mousse",
         image: food_9,
         price: 14000,
         description: "Torta con bizcochuelo de chocolate y relleno de mousse de dulce de leche.",
         category: "Torta"
     }, {
         _id: "10",
-        name: "Torta de chocolate",
+        name: "Torta Chantillí",
         image: food_10,
         price: 16000,
-        description: "Torta con bizcochuelo de vainilla, relleno de chocolate y cobertura de crema chantillí, frutilla y chocolate.",
+        description: "Torta con relleno de chocolate y cobertura de crema chantillí y frutillas.",
         category: "Torta"
     }, {
         _id: "11",
@@ -205,7 +205,7 @@ export const food_list = [
     },
     {
         _id: "13",
-        name: "Sándwiches de miga",
+        name: "Miga simple",
         image: food_13,
         price: 1200,
         description: "Sándwich de miga clásico de jamón y queso.",
@@ -216,7 +216,7 @@ export const food_list = [
         name: "Budín",
         image: food_14,
         price: 1800,
-        description: "Budín de vainilla, naranja o limón, húmedo y bien esponjoso con glaseado.",
+        description: "Budín de naranja o limón, húmedo y bien esponjoso con glaseado.",
         category: "Dulce"
     }, {
         _id: "15",
@@ -230,7 +230,7 @@ export const food_list = [
         name: "Lemon Pie",
         image: food_16,
         price: 10000,
-        description: "Lemon Pie con una base crocante, relleno de una suave crema de limón y decorada con merengue italiano.",
+        description: "Lemon Pie clásico relleno de crema de limón y merengue italiano.",
         category: "Torta"
     }, {
         _id: "17",
@@ -251,7 +251,7 @@ export const food_list = [
         name: "Torta frutal",
         image: food_19,
         price: 14000,
-        description: "Torta con bizcochuelo de vainilla, relleno de dulce de leche, crema y frutas de estación.",
+        description: "Torta con relleno de dulce de leche, crema y frutas de estación.",
         category: "Torta"
     }, {
         _id: "20",
@@ -262,10 +262,10 @@ export const food_list = [
         category: "Dulce"
     }, {
         _id: "21",
-        name: "Torta de chocolate",
+        name: "Torta chocolate",
         image: food_21,
         price: 18000,
-        description: "Torta con bizcochuelo de chocolate, relleno de mousse de chocolate y decorada con ganache de chocolate.",
+        description: "Torta con relleno de mousse de chocolate y ganache de chocolate.",
         category: "Torta"
     }, {
         _id: "22",
@@ -276,7 +276,7 @@ export const food_list = [
         category: "Torta"
     }, {
         _id: "23",
-        name: "Pastelito de membrillo",
+        name: "Pastelitos",
         image: food_23,
         price: 800,
         description: "Pastelitos de hojaldre y un relleno suave de membrillo en el interior",
@@ -309,7 +309,7 @@ export const food_list = [
         name: "Alfajor Mixto",
         image: food_27,
         price: 1200,
-        description: "Alfajor mixto relleno de fruta, dulce de leche o chocolate blanco y cubierta de chocolate negro.",
+        description: "Alfajor mixto diversos rellenos y cubierta de chocolate negro.",
         category: "Dulce"
     }, {
         _id: "28",
@@ -322,28 +322,28 @@ export const food_list = [
         _id: "29",
         name: "Torta de Mousse",
         image: food_29,
-        price: 14,
-        description: "Torta con bizcochuelo de chocolate y relleno de mousse de café y chocolate blanco.",
+        price: 14000,
+        description: "Torta con relleno de mousse de café y chocolate blanco.",
         category: "Torta"
     }, {
         _id: "30",
         name: "Tarta de frutilla",
         image: food_30,
         price: 12000,
-        description: "Tarta con base crocante, relleno de crema chantillí y decorado con abundantes frutillas de estación.",
+        description: "Tarta con relleno de crema chantillí y frutillas de estación.",
         category: "Torta"
     }, {
         _id: "31",
         name: "Tiramisú",
         image: food_31,
         price: 20000,
-        description: "Tiramisú tradicional italiano, preparado con café, bizcocho, mascarpone y cacao.",
+        description: "Tiramisú tradicional italiano de mascarpone y cacao.",
         category: "Torta"
     }, {
         _id: "32",
         name: "Chessecake",
         image: food_32,
-        price: 15,
+        price: 10000,
         description: "Chessecake clásico con base crocante y textura cremosa.",
         category: "Noodles"
     }
