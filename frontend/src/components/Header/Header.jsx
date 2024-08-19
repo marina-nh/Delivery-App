@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <div className='header'>
         <div className="header-contents">
-            <h2>Tus postres favoritos estan acá</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quisquam voluptate labore incidunt. Nobis, amet rem cupiditate nam maxime debitis praesentium quia repellendus enim velit exercitationem et quam autem molestias.</p>
+            <h2>Pastelería Artesanal Dino</h2>
+            <p>Descubre la dulzura de lo hecho a mano. En nuestra pastelería, cada creación es única, elaborada con ingredientes frescos y mucho amor para endulzar tus momentos más especiales.</p>
             <button>Mirá nuestras opciones</button>
         </div>
     </div>

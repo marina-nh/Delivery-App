@@ -22,20 +22,40 @@
 .header-contents h2 {
     font-weight: 500;
     color: white;
+    text-shadow: 2px 2px 2px black;
     font-size: max(4.5vw,22px);
 }
 
 .header-contents p {
+    text-shadow: 1px 1px 1px black;
     color: white;
     font-size: 1vw;
 }
 
 .header-contents button{
     border: none;
-    color: #7e4300;
+    color: black;
     font-weight: 500;
     padding: 1vw 2.3vw;
     background-color: white;
     font-size: max(1vw, 13px);
     border-radius: 50px;
+}
+
+@media (max-width:1050px) {
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px) {
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
 }
