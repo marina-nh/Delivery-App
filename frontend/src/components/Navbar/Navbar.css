@@ -27,7 +27,7 @@
     background: transparent;
     font-size: 16px;
     color: #F2A44C;
-    border: 1px solid #71270D;
+    border: 1px solid #ffd19c;
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -40,7 +40,7 @@
 
 .navbar .active{
     padding-bottom: 2px;
-    border-bottom: 2px solid #71270D;
+    border-bottom: 2px solid #ffd19c;
 }
 
 .navbar li{
@@ -55,7 +55,7 @@
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: #71270D;
+    background-color: #ffd19c;
     border-radius: 5px;
     top: -8px;
     right: -8px;
