@@ -32,7 +32,7 @@
     font-size: 1vw;
 }
 
-.header-contents button{
+.header-contents a{
     border: none;
     color: black;
     font-weight: 500;

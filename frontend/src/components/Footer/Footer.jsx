@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat illo quos nihil ut! Ut rerum praesentium odit laboriosam explicabo enim voluptas pariatur aut placeat suscipit corrupti, qui minima architecto quam.</p>
+                <p>Somos una pastelería artesanal dedicada a crear dulces momentos con ingredientes frescos y recetas tradicionales. Nuestra pasión por la pastelería se refleja en cada detalle, brindando productos únicos y hechos con amor.</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
@@ -18,8 +18,8 @@ const Footer = () => {
             <div className="footer-content-center">
                 <h2>QUIENES SOMOS</h2>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Sobre Nosotros</li>
+                    <li><a href="#header">Inicio</a></li>
+                    <li><a href="#header">Sobre Nosotros</a></li>
                     <li>Delivery</li>
                     <li>Privacy policy</li>
                 </ul>
@@ -27,7 +27,7 @@ const Footer = () => {
             <div className="footer-content-right">
                 <h2>CONTACTO</h2>
                 <ul>
-                    <li>123456789</li>
+                    <li>+123456789</li>
                     <li>contact@dino.com</li>
                 </ul>
             </div>
