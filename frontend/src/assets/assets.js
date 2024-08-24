@@ -262,7 +262,7 @@ export const food_list = [
         category: "Meriendas"
     }, {
         _id: "21",
-        name: "Torta chocolate",
+        name: "Chocolate",
         image: food_21,
         price: 18000,
         description: "Torta con relleno de mousse de chocolate y ganache de chocolate.",
