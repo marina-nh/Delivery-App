@@ -119,7 +119,7 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Alfajores simples",
+        name: "Simples",
         image: food_1,
         price: 5300,
         description: "Media docena de alfajores simple surtidos cubierta de chocolate negro.",
@@ -127,7 +127,7 @@ export const food_list = [
     },
     {
         _id: "2",
-        name: "Alfajores mixtos",
+        name: "Mixtos",
         image: food_2,
         price: 6200,
         description: "Media docena de alfajores triple mixtos con cubierta de chocolate.",
@@ -169,7 +169,7 @@ export const food_list = [
         category: "Merienda"
     }, {
         _id: "8",
-        name: "Torta Sándwich",
+        name: "Torta miga",
         image: food_8,
         price: 15000,
         description: "Torta de Sándwich de miga con diferentes rellenos a pedido.",
@@ -190,7 +190,7 @@ export const food_list = [
         category: "Tortas"
     }, {
         _id: "11",
-        name: "Postres de fruta",
+        name: "Postres",
         image: food_11,
         price: 1500,
         description: "Postres en vasitos con mix de frutas de estación.",
@@ -220,7 +220,7 @@ export const food_list = [
         category: "Budines"
     }, {
         _id: "15",
-        name: "Galletas de limón",
+        name: "Mix galletas",
         image: food_15,
         price: 1200,
         description: "Paquete de seis galletitas dulces de limón.",
@@ -283,7 +283,7 @@ export const food_list = [
         category: "Panaderia"
     }, {
         _id: "24",
-        name: "Medialuna rellena",
+        name: "Medialunas",
         image: food_24,
         price: 600,
         description: "Medialunas de manteca rellenas de dulce de leche o crema pastelera.",
@@ -320,14 +320,14 @@ export const food_list = [
         category: "Budines"
     }, {
         _id: "29",
-        name: "Torta de Mousse",
+        name: "Mousse",
         image: food_29,
         price: 14000,
         description: "Torta con relleno de mousse de café y chocolate blanco.",
         category: "Tortas"
     }, {
         _id: "30",
-        name: "Tarta de frutilla",
+        name: "Frutilla",
         image: food_30,
         price: 12000,
         description: "Tarta con relleno de crema chantillí y frutillas de estación.",
