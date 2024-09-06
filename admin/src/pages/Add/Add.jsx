@@ -18,9 +18,19 @@ const Add = () => {
         setData(data=>({...data,[name]:value}))
     }
 
+    const onSubmitHandler = async (event) => {
+        event.preventDefault();
+        const formData = new FormData();
+        formData.append("name",data.name)
+        formData.append("description",data.description)
+        formData.append("price",Number(data.price))
+        formData.append("category",data.category)
+        formData.append("image",image)
+    }
+
   return (
     <div className='add'>
-        <form className='flex-col'>
+        <form className='flex-col' onSubmit={onSubmitHandler}>
             <div className="add-img-upload flex-col">
                 <p>Upload Image</p>
                 <label htmlFor="image">
