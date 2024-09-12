@@ -1,24 +1,45 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './LoginPopup.css'
 import { assets } from '../../assets/assets'
+import { StoreContext } from '../../context/StoreContext'
 
 const LoginPopup = ({setShowLogin}) => {
 
+
+    const {url} = useContext(StoreContext)
+
+
     const [currState,setCurrState] = useState("Iniciar sesión")
+    const [data,setData] = useState({
+        name:"",
+        email:"",
+        password:""
+    })
+
+    const onChangeHandler = (event) => {
+         const name = event.target.name;
+         const value = event.target.value;
+         setData(data=>({...data,[name]:value}))
+    }
+
+    const onLogin = async (event) => {
+        event.preventDefault()
+    }
+
 
   return (
     <div className='login-popup'>
-        <form className="login-popup-container">
+        <form onSubmit={onLogin} className="login-popup-container">
             <div className="login-popup-title">
                 <h2>{currState}</h2>
                 <img onClick={()=>setShowLogin(false)} src={assets.cross_icon} alt="" />
             </div>
             <div className="login-popup-inputs">
-                {currState==="Iniciar sesión"?<></>:<input type="text" placeholder='Tu nombre' required/>}
-                <input type="email" placeholder='Tu email' required/>
-                <input type="password" placeholder='Tu contraseña' required/>
+                {currState==="Iniciar sesión"?<></>:<input name='name' onChange={onChangeHandler} value={data.name} type="text" placeholder='Tu nombre' required/>}
+                <input name='email' onChange={onChangeHandler} value={data.email} type="email" placeholder='Tu email' required/>
+                <input name='password' onChange={onChangeHandler} value={data.password} type="password" placeholder='Tu contraseña' required/>
             </div>
-            <button>{currState==="Registrarse"?"Crea una cuenta":"Iniciar sesión"}</button>
+            <button type='submit'>{currState==="Registrarse"?"Crea una cuenta":"Iniciar sesión"}</button>
             <div className="login-popup-condition">
                 <input type="checkbox" required/>
                 <p>Para continuar, he leído y acepto los términos y condiciones de uso.</p>
