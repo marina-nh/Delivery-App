@@ -2,11 +2,12 @@ import React, { useContext, useState } from 'react'
 import './LoginPopup.css'
 import { assets } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext'
+import axios from "axios"
 
 const LoginPopup = ({setShowLogin}) => {
 
 
-    const {url} = useContext(StoreContext)
+    const {url,setToken} = useContext(StoreContext)
 
 
     const [currState,setCurrState] = useState("Iniciar sesión")
@@ -24,6 +25,24 @@ const LoginPopup = ({setShowLogin}) => {
 
     const onLogin = async (event) => {
         event.preventDefault()
+        let newUrl = url;
+        if (currState==="Iniciar sesión") {
+            newUrl += "/api/user/login"
+        }
+        else{
+            newUrl += "/api/user/resgister"
+        }
+
+        const respose = await axios.post(newUrl,data);
+
+        if (respose.data.success) {
+            setToken(respose.data.token);
+            localStorage.setItem("token",respose.data.token);
+            setShowLogin(false)
+        }
+        else{
+            alert(respose.data.message)
+        }
     }
 
 
